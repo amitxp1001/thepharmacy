@@ -9,22 +9,22 @@ const services = [
   {
     title: 'Prescription Management',
     description: 'Easily upload, manage, and track your prescriptions with our secure platform.',
-    icon: '/icons/prescription.svg', // Placeholder: replace with actual icon path
+    icon: 'public/prescription-svgrepo-com.svg', // Placeholder: replace with actual icon path
   },
   {
     title: 'Fast Medication Delivery',
     description: 'Get your medications delivered to your doorstep quickly and reliably.',
-    icon: '/icons/delivery.svg', // Placeholder: replace with actual icon path
+    icon: 'public/logistics-delivery-express-svgrepo-com.svg', // Placeholder: replace with actual icon path
   },
   {
     title: 'Online Consultations',
     description: 'Consult with licensed pharmacists from the comfort of your home.',
-    icon: '/icons/consultation.svg', // Placeholder: replace with actual icon path
+    icon: 'public/business-person-male-who-consults-svgrepo-com.svg', // Placeholder: replace with actual icon path
   },
   {
     title: 'Refill Reminders',
     description: 'Never miss a dose with our automated refill reminders and notifications.',
-    icon: '/icons/reminder.svg', // Placeholder: replace with actual icon path
+    icon: 'public/reminder-alert-svgrepo-com.svg', // Placeholder: replace with actual icon path
   },
 ];
 

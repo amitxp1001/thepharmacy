@@ -2,8 +2,10 @@
 
 import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
+import { useState } from 'react'
 
 export default function Contact() {
+   
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-50 p-6">
       <motion.div 
@@ -27,7 +29,7 @@ export default function Contact() {
           <form className="space-y-4">
             <div>
               <label className="block text-sm text-gray-600">Name</label>
-              <input type="text" className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" />
+              <input type="name" className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" />
             </div>
             <div>
               <label className="block text-sm text-gray-600">Email</label>

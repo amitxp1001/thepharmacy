@@ -2,10 +2,11 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import { motion, AnimatePresence } from 'framer-motion';
+import { img } from 'framer-motion/client';
 
 // Sample medicine data
 const medicines = [
-  { id: 1, name: 'Paracetamol', category: 'Pain Relief', price: 5.99, stock: 100 },
+  { id: 1, name: 'Paracetamol', category: 'Pain Relief',price: 5.99, stock: 100 },
   { id: 2, name: 'Ibuprofen', category: 'Pain Relief', price: 7.99, stock: 80 },
   { id: 3, name: 'Amoxicillin', category: 'Antibiotic', price: 12.99, stock: 50 },
   { id: 4, name: 'Cetirizine', category: 'Antihistamine', price: 4.99, stock: 120 },
